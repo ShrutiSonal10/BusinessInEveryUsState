@@ -1,0 +1,74 @@
+/* Container styles */
+.business-list-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.business-list-container h2 {
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Error message styles */
+.business-list-container p {
+  text-align: center;
+  font-size: 16px;
+  color: #666;
+}
+
+.business-list-container p[style*="color: red"] {
+  color: #e74c3c;
+}
+
+/* Business item styles */
+.business-item {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.business-item:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Business title */
+.business-item h3 {
+  color: #2c3e50;
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+
+/* Business data styles */
+.business-data p {
+  margin: 5px 0;
+  color: #555;
+  font-size: 16px;
+}
+
+.business-data strong {
+  color: #34495e;
+}
+
+/* Link styling for website */
+.business-data a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.business-data a:hover {
+  text-decoration: underline;
+}
+
+/* List styles */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
